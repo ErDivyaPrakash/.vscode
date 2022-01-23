@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+        <h1>forms demo</h1>
+    </title>
+</head>
+
+<body>
+    <h1>forms demo</h1>
+    <form action="dpform">
+        <p>
+            <label for="username">Enter a username:</label>
+            <input id="username" type="text" placeholder="username" name="name">
+        </p>
+        <p>
+            <label for="password">enter password</label>
+
+            <input id="password" type="password" placeholder="enterpwd" name="password">
+        </p>
+        <p>
+            <label for="color">enter color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="number">enter a number</label>
+            <input id="number" type="number" placeholder="anyno." name="number">
+        </p>
+        <button>submit</button>
+    </form>
+    <h2>hijacking google search</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>search on google</button>
+    </form>
+    <h2>more inputs</h2>
+    <form action="birds">
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree"> I agree</label>
+        <p>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="xs">xs</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="s">s</label>
+            <input type="radio" name="size" id="m" value="m">
+            <label for="m">m</label>
+        </p>
+
+
+        <label for="meals ">please select a meal</label>
+        <select name="meal" id="meal">
+            <option value="fish">Fish</option>
+            <option value="curry">vegetrariusn</option>
+        </select>
+        <p>
+            <label for="cheese">amount_of_cheese</label>
+            <input type="range" id= "cheese" min = "1" max ="100" value= "75"cheese_level>
+        </p>
+         <p>
+             <b><label for="request">Any_special_request</label>
+             <textarea name="request" id="request" cols="30" rows="10"></textarea>
+             </b>
+         </p>
+
+         <button>submit</button>
+         
+</form>
+       <h2>formsvalidation</h2>
+       <form action="demo">
+           <label for="firstname">Enterfirstname</label>
+           <input type="text" name ="first" id="first" required>
+           <p>
+               <label for="username">username</label>
+               <input type="text" id="username" name= "username" minlength="5" maxlength= 10>
+           </p>
+           <button>submit</button>
+
+       </form>
+       
+
+
+       
+</body>
+
+
+</html>

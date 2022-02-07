@@ -1,0 +1,28 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    color: red;
+    padding-left: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.outro {
+    color: blue;
+    padding-right: 15rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+body{
+    background-color: #d2e2d0;
+}
+

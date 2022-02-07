@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationform</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body >
+    <h1>Student Registration Form</h1>
+    <form action="Registrartionform"> 
+    <div>
+        <label class="intro">First Name</label>
+        <input class ="middle">
+        <label class="outro">(Max 50 Characters Allowed)</label>
+    </div>
+    <div>
+        <label class="intro">Last Name</label>
+        <input class ="middle">
+        <label class="outro">(Max 50 Characters Allowed)</label>
+    </div>
+    <div>
+        <label class="intro">Email -ID</label>
+        <input class ="middle" type="email">
+    </div>
+    <div>
+        <label class="intro">Mobile No.</label>
+        <input class ="middle">
+        <label class="outro">(Max 10 Characters Only)</label>
+    </div>
+    <div>
+        <label class = "intro">Gender</label>
+        <div class ="middle">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            
+        </div>
+    </div>
+    <div>
+        <label class = "intro" for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+    </div>
+    <div>
+        <label class="intro">Address</label>
+        <textarea class="middle"></textarea>
+        <label class="outro">(Max 50 Characters Allowed)</label>
+    </div>
+    <div>
+        <label class="intro">City</label>
+        <input class="middle">
+        <label class="outro">(Max 50 Characters Allowed)<label>
+    </div>
+    <div>
+        <label class="intro">Pin Code</label>
+        <input class="middle">
+        <label class="outro">(Max 6 Characters Allowed)</label>
+    </div>
+    <div>
+        <label class="intro">State</label>
+        <input class="middle">
+        <label class="outro">(Max 50 Characters Allowed)</label>
+    </div>
+    <div>
+        <label class="intro">Country</label>
+        <input class="middle">
+        <label class="outro">(Max 50 Characters Allowed)</label>
+    </div>
+    <div>
+        <label class="intro">hobbies</label>
+        <div class ="middle">
+            <label for="Drawing">Drawing</label>
+            <input type="radio" name="Hobbies" id="Drawing" value="Drawing">
+            <label for="Singing">Singing</label>
+            <input type="radio" name="Hobbies" id="Singing" value="Singing">
+            <label for="Dancing">Dancing</label>
+            <input type="radio" name="Hobbies" id="Dancing" value="Dancing">
+            <label for="Sketching">Sketching</label>
+            <input type="radio" name="Hobbies" id="Sketching" value="Sketching">
+            <label for="Others">Others</label>
+            <input type="radio" name="Hobbies" id="Others" value="Others">
+            
+            <input>
+            <label class="outro">(Max 50 Characters allowed)</label>
+        </div>
+    </div>
+    <div>
+        <label class="intro">Qualification</label>
+        <div class="middle">
+            
+            <input type="checkbox" name="Qualification" id="HighSchool" value="HighSchool">
+            <label for="Male">High School (10th)</label>
+            <br>
+            <input type="checkbox" name="Qualification" id="HigherSchool" value="HigherSchool">
+            <label for="Female">Higher School(12th)</label>
+            <br>
+            <input type="checkbox" name="Qualification" id="Graduation" value="Graduation">
+            <label for="Male">Graduation</label>
+            <br>
+            <input type="checkbox" name="Qualification" id="PostGraduation" value="PostGraduation">
+            <label for="Female">Post Graduation</label>
+            <br>
+            <input type="checkbox" name="Qualification" id="Phd" value="Phd">
+            <label for="Male">Phd</label>
+            <br>
+        </div>
+    </div>
+    <div>
+        <label class="intro">Courses Applied For</label>
+        <div class ="middle" >
+            <input type="checkbox" name="CoursesAppliedFor" id="BCA" value="BCA">
+            <label for="Male">BCA Bachelor of Computer Application</label>
+            <br>
+            <input type="checkbox" name="CoursesAppliedFor" id="BCOM" value="BCOM">
+            <label for="Female">B.com Bachelor of Commerce</label>
+            <br>
+            <input type="checkbox" name="CoursesAppliedFor" id="BSC" value="BSC">
+            <label for="Male">B.Sc Bachelor of Science</label>
+            <br>
+            <input type="checkbox" name="CoursesAppliedFor" id="BA" value="BA">
+            <label for="Female">BA Bachelor of Arts</label>
+            <br>
+            <input type="checkbox" name="CoursesAppliedFor" id="MCA" value="MCA">
+            <label for="Male">MCA Master of Computer Application</label>
+            <br>
+            <input type="checkbox" name="CoursesAppliedFor" id="MCOM" value="MCOM">
+            <label for="Female">M.com Masters of Commerce</label>
+            <br>
+            <input type="checkbox" name="CoursesAppliedFor" id="MSC" value="MSC">
+            <label for="Male">M.Sc Masters of Science</label>
+            <br>
+        </div>
+    </div>
+</form>
+</body>
+
+</html>
